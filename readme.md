@@ -92,6 +92,4 @@ clearDatabase(customConnection); // deletes data from all entities registered co
 ```
 
 ### To do
-* Better error handling
-* More verbose CLI
 * Configurable connection
