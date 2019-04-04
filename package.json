@@ -1,0 +1,17 @@
+{
+  "name": "typeorm-seed",
+  "version": "0.0.5",
+  "description": "typeorm seed",
+  "author": "vitamojo",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "bin": "./dist/bin/seed.js",
+  "dependencies": {
+    "minimist": "1.2.0",
+    "typeorm": "0.2.9"
+  },
+  "devDependencies": {
+    "@types/node": "11.13.0",
+    "typescript": "2.8.4"
+  }
+}
