@@ -3,7 +3,7 @@
 TypeORM Seed Utils is an opinionated library to write and run database seeds.
 
 ### Installing
-Add ```"typeorm-seed": "git+ssh://git@bitbucket.org/vitamojo/typeorm-seed.git"``` to your package.json dependencies and run ```npm install```
+Run ```npm install @vita-mojo/typeorm-seed```
 
 ### Running the CLI
 ```
@@ -39,7 +39,7 @@ node ./node_modules/.bin/typeorm-seed --help
 ### Adding seed files
 Seed files should be added at ```src/data/seeds/<seedFile>.ts```. Base path will be configurable in the future.
 
-Examples can be found in [Tenant Service](https://bitbucket.org/vitamojo/tenant-service/src/master/src/data/seeds/)
+Examples of seed files will be added later.
 
 ### Additional functionality
 #### Seed factory manager

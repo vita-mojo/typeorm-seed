@@ -1,17 +1,31 @@
 {
-  "name": "typeorm-seed",
-  "version": "0.0.5",
+  "name": "@vita-mojo/typeorm-seed",
+  "version": "0.1.2",
   "description": "typeorm seed",
-  "author": "vitamojo",
+  "author": "Vita Mojo",
   "license": "MIT",
   "main": "dist/index.js",
-  "bin": "./dist/bin/seed.js",
+  "bin": "dist/bin/seed.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "postbuild": "copyfiles package.json readme.md dist && replace 'dist/' '' dist/package.json",
+    "prepublishOnly": "npm run clean && npm run build",
+    "test": "jest --config jest.config.json"
+  },
   "dependencies": {
-    "minimist": "1.2.0",
-    "typeorm": "0.2.9"
+    "minimist": "~1.2.0",
+    "typeorm": "~0.2.9"
   },
   "devDependencies": {
-    "@types/node": "11.13.0",
-    "typescript": "2.8.4"
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.0",
+    "copyfiles": "^2.1.0",
+    "faker": "^4.1.0",
+    "jest": "^24.7.1",
+    "replace": "^1.1.0",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.2"
   }
 }
