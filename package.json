@@ -1,5 +1,5 @@
 {
-  "name": "@vita-mojo/typeorm-seed",
+  "name": "typeorm-seed",
   "version": "0.1.2",
   "description": "typeorm seed",
   "author": "Vita Mojo",
