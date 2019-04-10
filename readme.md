@@ -3,17 +3,17 @@
 TypeORM Seed Utils is an opinionated library to write and run database seeds.
 
 ### Installing
-Run ```npm install @vita-mojo/typeorm-seed```
+Run ```npm install typeorm-seed```
 
-### Running the CLI
+### Running the CLI (use ./node_modules/.bin/typeorm-seed if not installed globally)
 ```
-node ./node_modules/.bin/typeorm-seed <command> <...files>
+typeorm-seed <command> <...files>
 ```
 
 ### CLI features:
 * Execute one or multiple seed files ```up```
 ```
-node ./node_modules/.bin/typeorm-seed up roles users
+typeorm-seed up roles users
 ```
 
 This will execute sequentially the files dist/data/seeds/roles.js and dist/data/seeds/users.js.
@@ -21,19 +21,19 @@ Base directory (dist/data/seeds) is not configurable at the moment.
 
 * Revert one or multiple seed files ```down```
 ```
-node ./node_modules/.bin/typeorm-seed down users roles
+typeorm-seed down users roles
 ```
 This command will revert seed files users.js and roles.js.
 
 * Clear entire database ```clear```
 ```
-node ./node_modules/.bin/typeorm-seed clear
+typeorm-seed clear
 ```
 Clear all data from all models registered in configured connection (ormconfig.json).
 
 * Show help ```--help```
 ```
-node ./node_modules/.bin/typeorm-seed --help
+typeorm-seed --help
 ```
 
 ### Adding seed files

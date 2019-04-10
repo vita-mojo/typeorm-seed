@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import * as parseArgs from 'minimist';
 import { createConnection, EntityManager, getConnectionManager } from 'typeorm';
 import { Commands as allowedCommands } from '../types';
