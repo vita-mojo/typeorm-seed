@@ -4,6 +4,11 @@
   "description": "typeorm seed",
   "author": "Vita Mojo",
   "license": "MIT",
+  "homepage": "https://github.com/vita-mojo/typeorm-seed",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vita-mojo/typeorm-seed.git"
+  },
   "main": "dist/index.js",
   "bin": "dist/bin/seed.js",
   "scripts": {
