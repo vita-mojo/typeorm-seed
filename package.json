@@ -1,6 +1,6 @@
 {
   "name": "typeorm-seed",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "typeorm seed",
   "author": "Vita Mojo",
   "license": "MIT",
@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "minimist": "~1.2.0",
-    "typeorm": "~0.2.9"
+    "typeorm": "~0.2.24"
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
